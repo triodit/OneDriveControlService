@@ -1,0 +1,39 @@
+3/24/2025 8:02:39 PM: Service started.
+3/24/2025 8:02:39 PM: Idle time: 0 minute(s)
+3/24/2025 8:02:39 PM: OneDrive running: True
+3/24/2025 8:02:39 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:02:39 PM: [~] Killing OneDrive: Id=44972, SessionId=1, StartTime=3/24/2025 8:00:56 PM
+3/24/2025 8:02:39 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:03:09 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:03:09 PM: [~] Killing OneDrive: Id=45448, SessionId=1, StartTime=3/24/2025 8:03:09 PM
+3/24/2025 8:03:09 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:03:39 PM: Idle time: 0 minute(s)
+3/24/2025 8:03:39 PM: OneDrive running: False
+3/24/2025 8:03:39 PM: [DEBUG] OneDrive not running — nothing to kill
+3/24/2025 8:05:09 PM: Idle time: 0 minute(s)
+3/24/2025 8:05:09 PM: OneDrive running: True
+3/24/2025 8:05:09 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:05:09 PM: [~] Killing OneDrive: Id=46004, SessionId=1, StartTime=3/24/2025 8:05:04 PM
+3/24/2025 8:05:09 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:05:39 PM: Idle time: 0 minute(s)
+3/24/2025 8:05:39 PM: OneDrive running: False
+3/24/2025 8:05:39 PM: [DEBUG] OneDrive not running — nothing to kill
+3/24/2025 8:06:09 PM: Idle time: 0 minute(s)
+3/24/2025 8:06:09 PM: OneDrive running: True
+3/24/2025 8:06:09 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:06:09 PM: [~] Killing OneDrive: Id=46576, SessionId=1, StartTime=3/24/2025 8:05:53 PM
+3/24/2025 8:06:09 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:06:39 PM: Idle time: 0 minute(s)
+3/24/2025 8:06:39 PM: OneDrive running: False
+3/24/2025 8:06:39 PM: [DEBUG] OneDrive not running — nothing to kill
+3/24/2025 8:09:49 PM: Service started.
+3/24/2025 8:09:49 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:09:49 PM: [~] Killing OneDrive: Id=45156, SessionId=1, StartTime=3/24/2025 8:09:28 PM
+3/24/2025 8:09:49 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:24:44 PM: Service started.
+3/24/2025 8:24:44 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:24:44 PM: [~] Killing OneDrive: Id=41996, SessionId=1, StartTime=3/24/2025 8:20:39 PM
+3/24/2025 8:24:44 PM: [-] Successfully killed OneDrive process
+3/24/2025 8:25:14 PM: [~] Attempting to kill OneDrive...
+3/24/2025 8:25:14 PM: [~] Killing OneDrive: Id=37928, SessionId=1, StartTime=3/24/2025 8:24:57 PM
+3/24/2025 8:25:14 PM: [-] Successfully killed OneDrive process
