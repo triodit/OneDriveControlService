@@ -1,0 +1,5 @@
+C:\Users\sarah\Documents\OneDriveControlService\obj\Release\net6.0\OneDriveControlService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarah\Documents\OneDriveControlService\obj\Release\net6.0\OneDriveControlService.AssemblyInfoInputs.cache
+C:\Users\sarah\Documents\OneDriveControlService\obj\Release\net6.0\OneDriveControlService.AssemblyInfo.cs
+C:\Users\sarah\Documents\OneDriveControlService\obj\Release\net6.0\OneDriveControlService.csproj.CoreCompileInputs.cache
+C:\Users\sarah\Documents\OneDriveControlService\obj\Release\net6.0\OneDriveControlService.sourcelink.json
