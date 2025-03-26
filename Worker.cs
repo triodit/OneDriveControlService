@@ -60,11 +60,13 @@ public class Worker : BackgroundService
 
     private void StartOneDrive()
     {
-        Log("[~] Attempting to start OneDrive as admin...");
+        Log("[~] Attempting to start OneDrive...");
 
         string[] commonPaths = new[]
         {
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), @"Microsoft\OneDrive\OneDrive.exe"),
+            Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "Microsoft\\OneDrive\\OneDrive.exe"),
             @"C:\Program Files\Microsoft OneDrive\OneDrive.exe",
             @"C:\Program Files (x86)\Microsoft OneDrive\OneDrive.exe"
         };
@@ -75,15 +77,8 @@ public class Worker : BackgroundService
             {
                 try
                 {
-                    ProcessStartInfo psi = new ProcessStartInfo
-                    {
-                        FileName = path,
-                        UseShellExecute = true,
-                        Verb = "runas"
-                    };
-
-                    Process.Start(psi);
-                    Log($"[+] Started OneDrive as admin from: {path}");
+                    Process.Start(path);
+                    Log($"[+] Started OneDrive from: {path}");
                     return;
                 }
                 catch (Exception ex)
@@ -103,6 +98,11 @@ public class Worker : BackgroundService
         try
         {
             var processes = Process.GetProcessesByName("OneDrive");
+            if (processes.Length == 0)
+            {
+                Log("[~] No OneDrive processes found to kill");
+            }
+
             foreach (var proc in processes)
             {
                 try
@@ -131,6 +131,7 @@ public class Worker : BackgroundService
             string logDir = AppDomain.CurrentDomain.BaseDirectory;
             string todayFile = Path.Combine(logDir, $"onedrive_log_{DateTime.Now:yyyyMMdd}.log");
 
+            // Delete logs older than 2 days
             foreach (var file in Directory.GetFiles(logDir, "onedrive_log_*.log"))
             {
                 string datePart = Path.GetFileName(file).Substring("onedrive_log_".Length, 8);
@@ -147,6 +148,7 @@ public class Worker : BackgroundService
         }
         catch
         {
+            // Silently ignore logging errors
         }
     }
 }
