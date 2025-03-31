@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Windows Script Host Object Model">
+			<Guid>{F935DC22-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+			<Version>1.0</Version>
+			<EmbedInteropTypes>true</EmbedInteropTypes>
+		</Reference>
+	</ItemGroup>
+
+</Project>
